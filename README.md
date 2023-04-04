@@ -17,22 +17,6 @@ python aliexpress_scraper.py
 
 The script will prompt you to enter the search query for the products you want to scrape. It will then scrape data from the product pages on AliExpress, and save the data to a CSV file named aliexpress_products.csv in the same directory as the script.
 
-You can customize the search query by modifying the SEARCH_QUERY variable in the script.
-
-Configuration
-
-The script has a few configurable options that you can modify in the config.py file:
-
-MAX_PAGES: The maximum number of product pages to scrape (default is 10).
-
-MAX_PRODUCTS: The maximum number of products to scrape per page (default is 40).
-
-HEADERS: HTTP headers to send with the requests (default is empty).
-
-PROXY: Proxy settings to use for the requests (default is empty).
-
-You can modify these options to customize the behavior of the script to your needs.
-
 Disclaimer
 
 Scraping data from websites may violate their terms of service, and can potentially lead to legal issues. It's important to ensure that you have the necessary permissions and rights before scraping any website. This script is provided for educational purposes only, and should be used at your own risk.
