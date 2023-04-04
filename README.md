@@ -6,9 +6,7 @@ This Python script uses the BeautifulSoup library to scrape product data from th
 Installation
 To use this script, you'll need to have Python 3 installed on your computer, as well as the BeautifulSoup and Requests libraries. You can install these libraries using pip:
 
-
-pip install beautifulsoup4 requests
-
+-pip install beautifulsoup4 requests
 
 Usage
 To use the script, simply run the aliexpress_scraper.py file from the command line:
