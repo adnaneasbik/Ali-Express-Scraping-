@@ -26,9 +26,11 @@ PROXY: Proxy settings to use for the requests (default is empty).
 You can modify these options to customize the behavior of the script to your needs.
 
 Disclaimer
+
 Scraping data from websites may violate their terms of service, and can potentially lead to legal issues. It's important to ensure that you have the necessary permissions and rights before scraping any website. This script is provided for educational purposes only, and should be used at your own risk.
 
 License
+
 This script is released under the MIT License. Feel free to use it for any purpose, commercial or non-commercial.
 
 
