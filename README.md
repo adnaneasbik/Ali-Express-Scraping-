@@ -20,9 +20,13 @@ Configuration
 The script has a few configurable options that you can modify in the config.py file:
 
 MAX_PAGES: The maximum number of search result pages to scrape (default is 1).
+
 MAX_PRODUCTS: The maximum number of products to scrape per page (default is 20).
+
 HEADERS: HTTP headers to send with the requests (default is empty).
+
 PROXY: Proxy settings to use for the requests (default is empty).
+
 You can modify these options to customize the behavior of the script to your needs.
 
 Disclaimer
