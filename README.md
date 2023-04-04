@@ -1,25 +1,31 @@
 AliExpress Product Scraper
 
-
-This Python script uses the BeautifulSoup library to scrape product data from the AliExpress website. It allows you to extract product names, prices, ratings, reviews, and other information from the product pages on AliExpress.
+This Python script uses the BeautifulSoup library to scrape product data from the AliExpress website. It allows you to extract product names, prices, ratings, reviews, and other information from the product pages on AliExpress and export it to a CSV file.
 
 Installation
+
 To use this script, you'll need to have Python 3 installed on your computer, as well as the BeautifulSoup and Requests libraries. You can install these libraries using pip:
 
-  pip install beautifulsoup4 requests
+
+pip install beautifulsoup4 requests
 
 Usage
+
 To use the script, simply run the aliexpress_scraper.py file from the command line:
+
 python aliexpress_scraper.py
 
-The script will prompt you to enter a search term, which it will use to search for products on AliExpress. It will then scrape data from the first page of search results, and save the data to a CSV file named aliexpress_data.csv.
+The script will prompt you to enter the search query for the products you want to scrape. It will then scrape data from the product pages on AliExpress, and save the data to a CSV file named aliexpress_products.csv in the same directory as the script.
+
+You can customize the search query by modifying the SEARCH_QUERY variable in the script.
 
 Configuration
+
 The script has a few configurable options that you can modify in the config.py file:
 
-MAX_PAGES: The maximum number of search result pages to scrape (default is 1).
+MAX_PAGES: The maximum number of product pages to scrape (default is 10).
 
-MAX_PRODUCTS: The maximum number of products to scrape per page (default is 20).
+MAX_PRODUCTS: The maximum number of products to scrape per page (default is 40).
 
 HEADERS: HTTP headers to send with the requests (default is empty).
 
@@ -34,6 +40,8 @@ Scraping data from websites may violate their terms of service, and can potentia
 License
 
 This script is released under the MIT License. Feel free to use it for any purpose, commercial or non-commercial.
+
+
 
 
 
